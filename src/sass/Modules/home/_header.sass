@@ -3,12 +3,8 @@
     padding: 0
     box-sizing: border-box
 
-
 .container-fluid
     width: 82% !important
-
-nav
-    height: 12vh
 
 .button_nav
     background-color: $blue !important
@@ -31,3 +27,27 @@ nav
     text-decoration: none
     &:hover
         color: $blue !important
+
+.nav_adidas
+    display: none !important
+
+        
+
+@media  (max-width: 430px)
+    .button_nav
+        display: none
+
+    .navbar-collapse
+        font-size: 20px !important
+
+    .navbar-nav
+        width: 40vw !important
+
+    .nav_img
+        width: 190px !important
+        margin-right: 40px !important
+    .nav_adidas
+        display: block !important
+        background-color: white !important
+        font-size: 25px !important
+        color:  !important
