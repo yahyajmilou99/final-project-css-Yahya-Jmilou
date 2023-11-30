@@ -12335,6 +12335,18 @@ textarea.form-control-lg {
   background-color: white !important;
 }
 
+.section_6 {
+  padding: 40px !important;
+}
+
+.section_6_part_1 {
+  width: 40% !important;
+}
+
+.section_6_part_2 {
+  width: 96% !important;
+}
+
 @media (max-width: 430px) {
   .slider_1 {
     background-image: url(../img/slider.jpg);
@@ -12461,6 +12473,24 @@ textarea.form-control-lg {
     font-size: 15px !important;
     flex-direction: column;
   }
+  .section_2_text::before {
+    content: "";
+    position: absolute;
+    width: 16% !important;
+    border-bottom: dotted 4px #1a76d1;
+    left: 37vh;
+    top: 20px;
+    display: none;
+  }
+  .section_2_text::after {
+    content: "";
+    position: absolute;
+    width: 16% !important;
+    border-bottom: dotted 4px #1a76d1;
+    left: 90vh;
+    top: 20px;
+    display: none;
+  }
   .section_3 {
     height: fit-content !important;
     background-image: url(../img/bread-bg.jpg) !important;
@@ -12492,9 +12522,6 @@ textarea.form-control-lg {
     margin-top: 10px !important;
     color: white;
     text-align: center !important;
-  }
-  .sec_3_text h6, .sec_3_text .h6 {
-    font-size: 30px !important;
   }
   .section_4 {
     padding: 30px !important;
@@ -12541,6 +12568,7 @@ textarea.form-control-lg {
     height: 40px !important;
     border: 1px white solid !important;
     border-radius: 5px !important;
+    font-size: 12px !important;
     background-color: #1a76d1 !important;
     color: white !important;
     transition: 0.5s;
@@ -12548,6 +12576,15 @@ textarea.form-control-lg {
   .section_5_button:hover {
     color: #1a76d1 !important;
     background-color: white !important;
+  }
+  .section_6 {
+    padding: 40px !important;
+  }
+  .section_6_part_1 {
+    width: 90% !important;
+  }
+  .section_6_part_2 {
+    width: 96% !important;
   }
 }
 * {

@@ -112,7 +112,6 @@
     gap: 5px !important
 
 .section_2_text
-
     width: 100% !important
     gap: 30px !important
     display: flex !important
@@ -224,6 +223,20 @@
         background-color: white !important
 
     // section 5 done
+
+    // section 6
+
+.section_6
+    padding: 40px !important
+
+.section_6_part_1
+    width: 40% !important
+
+.section_6_part_2
+    width: 96% !important
+
+    // section 6 done
+
 
 @media  (max-width: 430px)
 
@@ -353,6 +366,22 @@
         text-align: center !important
         font-size: 15px !important
         flex-direction: column
+        &::before
+            content: ""
+            position: absolute
+            width: 16% !important
+            border-bottom: dotted 4px $blue
+            left: 37vh
+            top: 20px
+            display: none
+        &::after
+            content: ""
+            position: absolute
+            width: 16% !important
+            border-bottom: dotted 4px $blue
+            left: 90vh
+            top: 20px
+            display: none
 
     // section 2 done
 
@@ -390,8 +419,7 @@
         margin-top: 10px !important
         color: white
         text-align: center !important
-        h6
-            font-size: 30px !important
+        
 
     // section 3 done
 
@@ -444,6 +472,7 @@
         height: 40px !important
         border: 1px white solid !important
         border-radius: 5px !important
+        font-size: 12px !important
         background-color: $blue !important
         color: white !important
         transition: 0.5s
@@ -452,3 +481,16 @@
             background-color: white !important
 
     // section 5 done
+
+    // section 6
+
+    .section_6
+        padding: 40px !important
+
+    .section_6_part_1
+        width: 90% !important
+
+    .section_6_part_2
+        width: 96% !important
+
+    // section 6 done
