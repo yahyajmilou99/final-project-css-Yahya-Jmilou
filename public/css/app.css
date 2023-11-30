@@ -12227,6 +12227,23 @@ textarea.form-control-lg {
   display: flex !important;
   text-align: center !important;
   font-size: 10px !important;
+  position: relative;
+}
+.section_2_text::before {
+  content: "";
+  position: absolute;
+  width: 16% !important;
+  border-bottom: dotted 4px #1a76d1;
+  left: 30vh;
+  top: 20px;
+}
+.section_2_text::after {
+  content: "";
+  position: absolute;
+  width: 16% !important;
+  border-bottom: dotted 4px #1a76d1;
+  left: 72vh;
+  top: 20px;
 }
 
 .section_3 {
@@ -12262,6 +12279,10 @@ textarea.form-control-lg {
   font-size: 15px !important;
 }
 
+.section_4 {
+  padding: 40px !important;
+}
+
 .section_4_part_1 {
   width: 60% !important;
 }
@@ -12289,6 +12310,29 @@ textarea.form-control-lg {
 
 .video {
   width: 40vw !important;
+}
+
+.section_5 {
+  padding: 30px !important;
+}
+
+.section_5_container {
+  width: 40% !important;
+  color: white;
+}
+
+.section_5_button {
+  width: 150px !important;
+  height: 40px !important;
+  border: 1px white solid !important;
+  border-radius: 5px !important;
+  background-color: #1a76d1 !important;
+  color: white !important;
+  transition: 0.5s;
+}
+.section_5_button:hover {
+  color: #1a76d1 !important;
+  background-color: white !important;
 }
 
 @media (max-width: 430px) {
