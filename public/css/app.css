@@ -12234,7 +12234,7 @@ textarea.form-control-lg {
   position: absolute;
   width: 16% !important;
   border-bottom: dotted 4px #1a76d1;
-  left: 30vh;
+  left: 37vh;
   top: 20px;
 }
 .section_2_text::after {
@@ -12242,7 +12242,7 @@ textarea.form-control-lg {
   position: absolute;
   width: 16% !important;
   border-bottom: dotted 4px #1a76d1;
-  left: 72vh;
+  left: 90vh;
   top: 20px;
 }
 
@@ -12524,6 +12524,30 @@ textarea.form-control-lg {
   }
   .video {
     width: 100% !important;
+  }
+  .section_5 {
+    padding: 30px !important;
+  }
+  .section_5_container {
+    width: 100% !important;
+    color: white;
+    font-size: 19px !important;
+  }
+  .section_5_container h3, .section_5_container .h3 {
+    font-size: 28px;
+  }
+  .section_5_button {
+    width: 120px !important;
+    height: 40px !important;
+    border: 1px white solid !important;
+    border-radius: 5px !important;
+    background-color: #1a76d1 !important;
+    color: white !important;
+    transition: 0.5s;
+  }
+  .section_5_button:hover {
+    color: #1a76d1 !important;
+    background-color: white !important;
   }
 }
 * {
