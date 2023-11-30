@@ -12204,11 +12204,14 @@ textarea.form-control-lg {
 }
 
 .rounded_icon {
-  font-size: 25px;
+  font-size: 22px;
   border-radius: 50% !important;
   border: black solid 1px !important;
   width: 50px !important;
   height: 50px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
 .section_2_part {
@@ -12224,6 +12227,39 @@ textarea.form-control-lg {
   display: flex !important;
   text-align: center !important;
   font-size: 10px !important;
+}
+
+.section_3 {
+  height: 35vh !important;
+  background-image: url(../img/bread-bg.jpg) !important;
+  background-size: cover;
+}
+
+.section_3_container {
+  width: 100% !important;
+  background-color: #1a76d1 !important;
+  opacity: 80% !important;
+}
+
+.sec_3_round {
+  height: 50px !important;
+  width: 50px !important;
+  border-radius: 50% !important;
+  font-size: 15px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: 1px white solid;
+  color: white !important;
+}
+
+.sec_3_text {
+  font-size: 10px !important;
+  margin-top: 10px !important;
+  color: white;
+}
+.sec_3_text h6, .sec_3_text .h6 {
+  font-size: 15px !important;
 }
 
 @media (max-width: 430px) {
@@ -12351,6 +12387,41 @@ textarea.form-control-lg {
     text-align: center !important;
     font-size: 15px !important;
     flex-direction: column;
+  }
+  .section_3 {
+    height: fit-content !important;
+    background-image: url(../img/bread-bg.jpg) !important;
+    background-size: cover;
+  }
+  .section_3_container {
+    width: 100% !important;
+    background-color: #1a76d1 !important;
+    opacity: 85% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 30px !important;
+  }
+  .sec_3_round {
+    height: 70px !important;
+    width: 70px !important;
+    border-radius: 50% !important;
+    font-size: 25px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border: 1px white solid;
+    color: white !important;
+  }
+  .sec_3_text {
+    font-size: 20px !important;
+    margin-top: 10px !important;
+    color: white;
+    text-align: center !important;
+  }
+  .sec_3_text h6, .sec_3_text .h6 {
+    font-size: 30px !important;
   }
 }
 * {
