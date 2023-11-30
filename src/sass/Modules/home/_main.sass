@@ -3,7 +3,7 @@
     padding: 0
     box-sizing: border-box
 
-// section1
+// section 1
 
 .slider_1
     background-image: url(../img/slider.jpg)
@@ -58,14 +58,75 @@
     border-radius: 50% !important
     font-size: 1px !important
 
-// section1 done 
+// section 1 done 
+
+// section 2
+
+.section_2
+    height: fit-content !important
+    width: 100% !important
+    display: flex !important
+    flex-direction: column !important
+    align-items: center !important
+
+.section_2_container
+    height: fit-content
+    width: 55% !important
+    display: flex !important
+    justify-content: center !important
+    align-items: start !important
+
+.section_2_content
+    width: 68% !important
+    display: flex !important
+    flex-direction: column !important
+    justify-content: center !important
+    align-items: center !important
+    text-align: center
+    p
+        font-size: 12px !important
+
+.section_2_part_2
+    width: 80% !important
+    margin-top: 30px !important
+.icons_container
+    width: 100% !important
+    display: flex !important
+    justify-content: center !important
+    justify-content: space-around !important
+.rounded_icon
+    font-size: 25px
+    border-radius: 50% !important
+    border: black solid 1px !important
+    width: 50px !important
+    height: 50px !important
+
+.section_2_part
+    display: flex !important
+    flex-direction: column !important
+    align-items: center !important
+    gap: 5px !important
+    
+
+.section_2_text
+    
+    width: 100% !important
+    gap: 30px !important
+    display: flex !important
+    text-align: center !important
+    font-size: 10px !important
+
+// section 2 done 
 
 @media  (max-width: 430px)
+
+    // section 1
+
     .slider_1
         background-image: url(../img/slider.jpg)
         background: !important
         height: fit-content !important
-        
+
     .slider_2
         background-image: url(../img/slider2.jpg)
         height: fit-content !important
@@ -73,18 +134,14 @@
         background-image: url(../img/slider3.jpg)
         height: fit-content !important
 
-
-    
     .slider_1_container
         width: 100% !important
         height: 65vh
-        // background-color: red
 
     .slider_content
         width: 90% !important
         height: 85%
-        
-        // background-color: black 
+
         h1
             font-size: 25px !important
         p
@@ -107,7 +164,7 @@
         color: white !important
         background-color: #2c2d3f
         border-radius: 2px !important
-    
+
     .carousel-control-prev-icon
         width: 30px !important
         height: 30px !important
@@ -121,3 +178,75 @@
         border-radius: 50% !important
         font-size: 1px !important
         background-color: white !important
+
+    // section 1 done
+
+    // section 2
+
+    .section_2
+        height: fit-content !important
+        width: 100% !important
+        display: flex !important
+        flex-direction: column !important
+        align-items: center !important
+        padding: 30px !important
+        gap: 15px !important
+
+    .section_2_container
+        height: fit-content
+        width: 100% !important
+        display: flex !important
+        justify-content: center !important
+        align-items: start !important
+
+    .section_2_content
+        width: 100% !important
+        display: flex !important
+        flex-direction: column !important
+        justify-content: center !important
+        align-items: center !important
+        text-align: center !important
+        p
+            font-size: 15px !important
+        h5
+            font-size: 27px !important
+
+    .section_2_part_2
+        width: 100% !important
+        margin-top: 30px !important
+        display: flex
+        justify-content: center
+
+    .icons_container
+        width: 100% !important
+        display: flex !important
+        justify-content: center !important
+        justify-content: space-around !important
+
+    .rounded_icon
+        font-size: 35px !important
+        border-radius: 50% !important
+        border: black solid 1px !important
+        width: 70px !important
+        height: 70px !important
+        display: flex !important
+        justify-content: center !important
+        align-items: center !important
+
+    .section_2_part
+        display: flex !important
+        flex-direction: column !important
+        align-items: center !important
+        gap: 5px !important
+
+
+    .section_2_text
+        width: 100% !important
+        gap: 30px !important
+        display: flex !important
+        text-align: center !important
+        font-size: 15px !important
+        flex-direction: column
+
+    // section 2 done
+
