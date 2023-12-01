@@ -12470,6 +12470,18 @@ textarea.form-control-lg {
   font-size: 12px !important;
 }
 
+.section_10 {
+  background-image: url(../img/blockqoute-bg.jpg);
+  background-attachment: fixed;
+  height: 25vh !important;
+  width: 100% !important;
+}
+.section_10 .section_10_container {
+  background-color: #1a76d1;
+  opacity: 75% !important;
+  height: 100% !important;
+}
+
 @media (max-width: 430px) {
   .slider_1 {
     background-image: url(../img/slider.jpg);
@@ -12821,6 +12833,18 @@ textarea.form-control-lg {
     background-color: #1a76d1;
     color: white;
     font-size: 12px !important;
+  }
+  .section_10 {
+    background-image: url(../img/blockqoute-bg.jpg);
+    background-attachment: fixed;
+    height: fit-content !important;
+    width: 100% !important;
+  }
+  .section_10 .section_10_container {
+    background-color: #1a76d1;
+    opacity: 75% !important;
+    height: 100% !important;
+    padding: 30px !important;
   }
 }
 * {
