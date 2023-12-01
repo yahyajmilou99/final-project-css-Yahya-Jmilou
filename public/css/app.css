@@ -12350,6 +12350,7 @@ textarea.form-control-lg {
 .section_7 {
   width: 100% !important;
   padding: 35px !important;
+  padding-bottom: 80px !important;
 }
 
 .section_7_container {
@@ -12373,6 +12374,58 @@ textarea.form-control-lg {
 
 .section_7_text {
   font-size: 12px !important;
+}
+
+.section_8 {
+  background-color: #f9f9f9;
+  padding: 30px !important;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+
+.section_8_container {
+  width: 80% !important;
+}
+
+.section_8_part_1 {
+  width: 45% !important;
+}
+
+.section_8_part_2 {
+  width: 95% !important;
+}
+
+.section_8_card {
+  width: 33.3333333333% !important;
+  background-color: white;
+  padding: 17px !important;
+  border: 1px grey solid;
+}
+.section_8_card button {
+  width: 100% !important;
+  height: 40px !important;
+  color: white;
+  background-color: #1a76d1;
+  border: none;
+  border-radius: 3px !important;
+}
+
+.fa-scissors {
+  font-size: 45px !important;
+}
+
+.fa-tooth {
+  font-size: 45px !important;
+}
+
+.fa-heart-pulse {
+  font-size: 45px !important;
+}
+
+.price span {
+  font-size: 28px !important;
+  color: #1a76d1;
+  font-weight: bold;
 }
 
 @media (max-width: 430px) {
@@ -12638,6 +12691,54 @@ textarea.form-control-lg {
   }
   .section_7_text h5, .section_7_text .h5 {
     font-size: 30px !important;
+  }
+  .section_8 {
+    background-color: #f9f9f9;
+    padding: 10px !important;
+    padding-top: 40px !important;
+    padding-bottom: 60px !important;
+  }
+  .section_8_container {
+    width: 95% !important;
+  }
+  .section_8_part_1 {
+    width: 80% !important;
+  }
+  .section_8_part_2 {
+    width: 95% !important;
+  }
+  .section_8_card {
+    width: 100% !important;
+    background-color: white;
+    border: 1px grey solid;
+    padding: 15px !important;
+    padding-top: 60px !important;
+    padding-bottom: 30px !important;
+  }
+  .section_8_card button {
+    width: 100% !important;
+    height: 40px !important;
+    color: white;
+    background-color: #1a76d1;
+    border: none;
+    border-radius: 3px !important;
+  }
+  .sec_8_text_container {
+    width: 85% !important;
+  }
+  .fa-scissors {
+    font-size: 80px !important;
+  }
+  .fa-tooth {
+    font-size: 80px !important;
+  }
+  .fa-heart-pulse {
+    font-size: 80px !important;
+  }
+  .price span {
+    font-size: 40px !important;
+    color: #1a76d1;
+    font-weight: bold;
   }
 }
 * {
