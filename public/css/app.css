@@ -12428,6 +12428,48 @@ textarea.form-control-lg {
   font-weight: bold;
 }
 
+.section_9 {
+  padding: 30px !important;
+  padding-top: 70px !important;
+  padding-bottom: 100px !important;
+}
+
+.section_9_container {
+  width: 78% !important;
+}
+
+.section_9_part_1 {
+  width: 40% !important;
+}
+
+.section_9_part_2 {
+  width: 100%;
+}
+.section_9_part_2 .section_9_card {
+  width: 30% !important;
+  box-shadow: 1px 0px 7px -2px rgb(8, 7, 7);
+  -webkit-box-shadow: 1px 0px 7px -2px rgb(8, 7, 7);
+  -moz-box-shadow: 1px 0px 7px -2px rgb(8, 7, 7);
+}
+.section_9_part_2 .section_9_card .section_9_card_text {
+  width: 85% !important;
+}
+.section_9_part_2 .section_9_card .section_9_card_text h6, .section_9_part_2 .section_9_card .section_9_card_text .h6 {
+  font-weight: bold;
+}
+.section_9_part_2 .section_9_card .section_9_card_text p {
+  font-size: 12px !important;
+}
+.section_9_part_2 .section_9_card .section_9_card_text button {
+  height: 23px !important;
+  width: 88px !important;
+  border: none;
+  border-radius: 2px !important;
+  background-color: #1a76d1;
+  color: white;
+  font-size: 12px !important;
+}
+
 @media (max-width: 430px) {
   .slider_1 {
     background-image: url(../img/slider.jpg);
@@ -12739,6 +12781,46 @@ textarea.form-control-lg {
     font-size: 40px !important;
     color: #1a76d1;
     font-weight: bold;
+  }
+  .section_9 {
+    padding: 0px !important;
+    padding-top: 40px !important;
+    padding-bottom: 100px !important;
+  }
+  .section_9_container {
+    width: 95% !important;
+  }
+  .section_9_part_1 {
+    width: 80% !important;
+  }
+  .section_9_part_2 {
+    width: 100%;
+  }
+  .section_9_part_2 .section_9_card {
+    width: 90% !important;
+    box-shadow: 1px 0px 7px -2px rgb(8, 7, 7);
+    -webkit-box-shadow: 1px 0px 7px -2px rgb(8, 7, 7);
+    -moz-box-shadow: 1px 0px 7px -2px rgb(8, 7, 7);
+    align-items: center !important;
+  }
+  .section_9_part_2 .section_9_card .section_9_card_text {
+    width: 85% !important;
+  }
+  .section_9_part_2 .section_9_card .section_9_card_text h6, .section_9_part_2 .section_9_card .section_9_card_text .h6 {
+    font-weight: bold;
+    font-size: 20px !important;
+  }
+  .section_9_part_2 .section_9_card .section_9_card_text p {
+    font-size: 16px !important;
+  }
+  .section_9_part_2 .section_9_card .section_9_card_text button {
+    height: 38px !important;
+    width: 150px !important;
+    border: none;
+    border-radius: 2px !important;
+    background-color: #1a76d1;
+    color: white;
+    font-size: 12px !important;
   }
 }
 * {
