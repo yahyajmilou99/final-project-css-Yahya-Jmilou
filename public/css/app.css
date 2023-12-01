@@ -12056,14 +12056,32 @@ textarea.form-control-lg {
 .navbar-nav {
   width: 40vw !important;
 }
+.navbar-nav:hover {
+  color: #1a76d1 !important;
+}
+.navbar-nav .nav_links {
+  position: relative;
+}
+.navbar-nav .nav_links::after {
+  content: "";
+  position: absolute;
+  left: 0vw;
+  bottom: -30%;
+  width: 0;
+  background-color: #1a76d1;
+  height: 4px !important;
+  border-radius: 4px !important;
+  transition: 0.5s;
+}
+.navbar-nav .nav_links:hover::after {
+  width: 100%;
+}
 
 .nav_links {
   color: #575d71 !important;
   transition: 0.3s !important;
   text-decoration: none;
-}
-.nav_links:hover {
-  color: #1a76d1 !important;
+  font-size: 18px !important;
 }
 
 .nav_adidas {
@@ -12169,6 +12187,7 @@ textarea.form-control-lg {
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
+  padding: 30px !important;
 }
 
 .section_2_container {
@@ -12534,15 +12553,21 @@ textarea.form-control-lg {
   .slider_1 {
     background-image: url(../img/slider.jpg);
     background: !important;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: fit-content !important;
   }
   .slider_2 {
     background-image: url(../img/slider2.jpg);
     height: fit-content !important;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   .slider_3 {
     background-image: url(../img/slider3.jpg);
     height: fit-content !important;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   .slider_1_container {
     width: 100% !important;

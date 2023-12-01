@@ -18,15 +18,56 @@
 .navbar-collapse
     font-size: 10px !important
 
+
 .navbar-nav
     width: 40vw !important
+    &:hover
+        color: $blue !important
+    .nav_links
+        position: relative
+        &::after
+            content: ""
+            position: absolute
+            left: 0vw
+            bottom: -30%
+            width: 0
+            background-color: $blue
+            height: 4px !important
+            border-radius: 4px !important
+            transition: 0.5s
+        &:hover::after
+            width: 100%
+            
+
 
 .nav_links
     color: #575d71 !important
     transition: 0.3s !important
     text-decoration: none
-    &:hover
-        color: $blue !important
+    font-size: 18px !important
+
+    // &:hover
+    //     color: $blue !important
+    // a 
+    //     position: relative
+    //     &::after 
+    //         content: ""
+    //         position: absolute
+    //         left: 0vw
+    //         bottom: -30%
+    //         width: 0
+    //         background: $blue
+    //         height: 4px
+    //         border-radius: 4px
+    //         transition: ease-in-out 0.3s
+        
+
+    //     &:hover::after 
+    //         width: 100%
+        
+    
+
+
 
 .nav_adidas
     display: none !important
